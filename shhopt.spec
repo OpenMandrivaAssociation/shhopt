@@ -7,6 +7,7 @@ Version:	1.1.7
 Release:	%mkrel 5
 License:	Artistic
 Group:		System/Libraries
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://shh.thathost.com/pub-unix/
 Source0:	http://shh.thathost.com/pub-unix/files/%{name}-%{version}.tar.bz2
 
