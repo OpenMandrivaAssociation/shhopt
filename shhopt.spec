@@ -4,7 +4,7 @@
 Summary:	Library for parsing command line options
 Name:		shhopt
 Version:	1.1.7
-Release:	%mkrel 5
+Release:	%mkrel 6
 License:	Artistic
 Group:		System/Libraries
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
