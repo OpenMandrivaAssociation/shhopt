@@ -88,3 +88,40 @@ mv %{buildroot}%{_includedir}/*.h %{buildroot}%{_includedir}/%{name}/
 %{_includedir}/%{name}/*
 %{_libdir}/*.so
 %{_libdir}/*.a
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 1.1.7-6mdv2010.0
++ Revision: 433781
+- rebuild
+
+* Mon Jun 09 2008 Pixel <pixel@mandriva.com> 1.1.7-5mdv2009.0
++ Revision: 217195
+- do not call ldconfig in %%post/%%postun, it is now handled by filetriggers
+
+* Thu Feb 14 2008 Thierry Vignaud <tvignaud@mandriva.com> 1.1.7-5mdv2008.1
++ Revision: 168224
+- fix no-buildroot-tag
+- kill re-definition of %%buildroot on Pixel's request
+
+* Wed May 09 2007 Oden Eriksson <oeriksson@mandriva.com> 1.1.7-5mdv2008.0
++ Revision: 25475
+- Import shhopt
+
+
+
+* Fri Apr 28 2006 Oden Eriksson <oeriksson@mandriva.com> 1.1.7-5mdk
+- fix spec file mistake
+
+* Fri Apr 28 2006 Oden Eriksson <oeriksson@mandriva.com> 1.1.7-4mdk
+- fix a file conflict with netpbm-devel
+
+* Thu May 12 2005 Oden Eriksson <oeriksson@mandriva.com> 1.1.7-3mdk
+- rpmlint fixes
+- lib64 fixes
+
+* Sat Nov 13 2004 Oden Eriksson <oeriksson@mandrakesoft.com> 1.1.7-2mdk
+- rpmbuildupdated
+
+* Sun Oct 05 2003 Oden Eriksson <oden.eriksson@kvikkjokk.net> 1.1.7-1mdk
+- initial cooker contrib
