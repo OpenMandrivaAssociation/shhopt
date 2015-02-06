@@ -5,7 +5,7 @@
 Summary:	Library for parsing command line options
 Name:		shhopt
 Version:	1.1.7
-Release:	8
+Release:	9
 License:	Artistic
 Group:		System/Libraries
 Url:		http://shh.thathost.com/pub-unix/
