@@ -9,7 +9,7 @@ Release:	9
 License:	Artistic
 Group:		System/Libraries
 Url:		http://shh.thathost.com/pub-unix/
-Source0:	http://shh.thathost.com/pub-unix/files/%{name}-%{version}.tar.bz2
+Source0:	http://shh.thathost.com/pub-unix/files/%{name}-%{version}.tar.gz
 
 %description
 C-functions for parsing command line options, both traditional
