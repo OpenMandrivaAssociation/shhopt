@@ -8,7 +8,7 @@ Version:	1.1.7
 Release:	9
 License:	Artistic
 Group:		System/Libraries
-Url:		http://shh.thathost.com/pub-unix/
+Url:		https://shh.thathost.com/pub-unix/
 Source0:	http://shh.thathost.com/pub-unix/files/%{name}-%{version}.tar.gz
 
 %description
