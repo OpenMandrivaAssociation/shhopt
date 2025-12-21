@@ -11,6 +11,7 @@ Group:		System/Libraries
 Url:		https://shh.thathost.com/pub-unix/
 Source0:	http://shh.thathost.com/pub-unix/files/%{name}-%{version}.tar.gz
 
+BuildRequires:	make
 %description
 C-functions for parsing command line options, both traditional
 one-character options, and GNU'ish --long-options.
